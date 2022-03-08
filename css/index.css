@@ -1,0 +1,33 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+.main-title {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+  font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.main-subtitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-family: 'Fredoka', Arial, Helvetica, sans-serif;
+}
+.container-imersao {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.main-subtitle.-imersao {
+  font-size: 2.2rem;
+  margin-right: 0.3rem;
+}
+.main-subtitle.-dev {
+  font-size: 2.2rem;
+  background-color: #fbdd00;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+}
