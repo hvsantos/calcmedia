@@ -46,3 +46,19 @@ body {
 .main-button {
   height: 2.5rem;
 }
+.espaco-notas {
+  margin-top: 40px;
+  margin-left: 80px;
+  background-image: url('../img/papel-fundo.png');
+  height: 340px;
+  background-repeat: no-repeat;
+}
+.notas-wrapper {
+  text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 2rem;
+  padding-top: 2px;
+}
+.notas {
+  margin-top: 13px;
+}
