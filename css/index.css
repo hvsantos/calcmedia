@@ -39,10 +39,10 @@ body {
   padding-right: 6px;
   padding-left: 6px;
 }
-.input-box {
+.main-input {
   height: 2rem;
   font-size: 1.6rem;
 }
-.button-submit {
+.main-button {
   height: 2.5rem;
 }
