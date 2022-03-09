@@ -29,13 +29,13 @@ function clickSubmit(event) {
 }
 function valorPorBim(valor, bimestre) {
   if (bimestre == 0) {
-    $primeirobim.textContent = valor
+    $primeirobim.insertAdjacentHTML('afterbegin', valor)
   } else if (bimestre == 1) {
-    $segundobim.textContent = valor
+    $segundobim.insertAdjacentHTML('afterbegin', valor)
   } else if (bimestre == 2) {
-    $terceirobim.textContent = valor
+    $terceirobim.insertAdjacentHTML('afterbegin', valor)
   } else if (bimestre == 3) {
-    $quartobim.textContent = valor
+    $quartobim.insertAdjacentHTML('afterbegin', valor)
   }
 }
 function alunoApproved(media) {
