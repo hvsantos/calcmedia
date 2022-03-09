@@ -15,7 +15,6 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="scripts/script.js"></script>
   </head>
   <body>
     <div class="main-wrapper">
@@ -34,13 +33,22 @@
     </div>
     <div class="espaco-notas">
       <ol class="notas-wrapper">
-        <li class="notas">nota 1</li>
-        <li class="notas">nota 2</li>
-        <li class="notas">nota 3</li>
-        <li class="notas">nota 4</li>
-        <li class="notas">nota final</li>
-        <li class="notas">Aluno Aprovado</li>
+        <li class="notas">
+          Nota do Primeiro Bimestre: <span id="primeirobim">0</span>
+        </li>
+        <li class="notas">
+          Nota do Segundo Bimestre: <span id="segundobim">0</span>
+        </li>
+        <li class="notas">
+          Nota do Terceiro Bimestre: <span id="terceirobim">0</span>
+        </li>
+        <li class="notas">
+          Nota do Quarto Bimestre: <span id="quartobim">0</span>
+        </li>
+        <li class="notas">Nota Média: <span id="media">0</span></li>
+        <li class="notas" id="aprovado">Aprovado?</li>
       </ol>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
